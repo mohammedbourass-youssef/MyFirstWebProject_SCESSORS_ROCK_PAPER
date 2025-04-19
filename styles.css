@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    padding : 0;
+    height: 100vh;
+}
+h1 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+header {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border: 2px solid;
+    height: 6%;
+    display: flex;
+}
+main {
+    background-color: #24252f;
+    height: 100%;
+    padding-top: 2%;
+}
+h3 {
+    color : green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight :bolder;
+    margin-left: 45%;
+
+}
+.Result {
+    background-color: white;
+    border:2px solid white;
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items: center;
+}
+figure {
+    display: inline;
+    border: 3px bold red;
+    
+}
+.Result-and-other-things {
+    display: flex;
+    padding-left: 17%;
+}
+.result-section{
+    background-color: #f6f6f6;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 3%;
+      margin-bottom: 4%;
+      width: 40%;
+      border-radius: 30px;
+      text-align: center;
+      height: 70px;
+      display: flex;
+      padding-left: 4%;
+      box-shadow: 0 4px 8px rgba(7, 7, 7, 0.2);
+}
+.counter-robot{
+    margin-left: 10%;
+    width: 10%;
+    padding-top: 1%;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+.counter-vs {
+    margin-left: 15%;
+    width: 10%;
+    padding-top: 3%;
+}
+.counter-user {
+    margin-left: 25%;
+    width: 10%;
+    padding-top: 1%;
+    font-size: xx-large;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+.Play-section {
+    background-color: white;
+    border:2px solid white;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items: center;
+    height: 50%;
+    padding: 0;
+}
+.lblplay {
+    width: 10%;
+    padding-top: 1%;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+.lblresultComment{
+    padding-top: 0.1%;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    color: coral;
+    margin-left: 40%;
+    margin-bottom: 1%;
+}
+.choices-secton{
+    height: 60%;
+    margin: 0;
+    display: flex;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.2);
+}
+.user-choice{
+    height: 100%;
+    width: 70%;
+}
+.robot-choice {
+    height: 100%;
+    width: 30%;
+}
+.user-option{
+    border:2px solid #24252f;
+    margin-top: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 50%;
+    display: flex;
+    border-radius: 30px;
+}
+.robot-option{
+    border:2px solid #24252f;
+    margin-top: 17%;
+    height: 50%;
+    display: flex;
+    width: 90%;
+    border-radius: 30px;
+}
+.img-play{
+    margin-left: 18%;
+   box-shadow:  0 0 10px rgba(7, 7, 7, 0.2);
+}

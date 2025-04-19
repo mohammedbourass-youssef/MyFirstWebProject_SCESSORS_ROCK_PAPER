@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paper-scessors-Rock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="" width="60px" height="auto">
+        <h1>paper scessors Rock</h1>
+    </header>
+    <main>
+        <section class="Result">
+            <h3>Result</h3>
+            <section class="Result-and-other-things">
+                <figure>
+                    <img src="Robot.png" class="Robot-image" width="100px" height="auto">
+                    <br>
+                    <caption>Mr Robot</caption>
+                </figure>
+                <section class="result-section">
+                    <section class="counter-robot">
+                         <h4 id="robot-res">0</h4>
+                    </section>
+                    <section class="counter-vs">
+                        <img src="vs.png" alt="" width="70px" height="auto">
+                    </section>
+                    <section class="counter-user">
+                         <h4 id="user-res" class="user-res">0</h4>
+                    </section>
+                </section>
+               <figure>
+                <img src="user.png" alt="" class="user-image" width="100px" height="auto">
+                <br>
+                <caption>Mr USER </caption>
+               </figure>
+            </section>
+        </section>
+        <section class="Play-section">
+            <p class="lblplay">Play</p>
+            <p id="lblresultComment" class="lblresultComment">Pick your Choice</p>
+            <section class="choices-secton">
+                <section class="user-choice">
+                    <section class="user-option">
+                        <img id="idpaper" src="paper.png" alt="" width="80px" height="auto" class="img-play" onclick="clickOnPaper()">
+                        <img id="idscessors" src="Scissors.png" alt="" width="80px" height="auto" class="img-play" onclick="clickOnScessors()">
+                        <img id="idrock" src="Rock.png" alt="" width="80px" height="auto" class="img-play" onclick="clickOnRock()"> 
+                    </section>
+                    
+                </section>
+                <section class="robot-choice">
+                    <section class="robot-option">
+                        <img id="idrobotchoice" src="Rock.png" alt="" width="80px" height="auto" class="img-play"> 
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
